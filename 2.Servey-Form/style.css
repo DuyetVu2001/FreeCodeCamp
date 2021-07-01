@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#main {
+	max-width: 540px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    #main {
+        max-width: 720px;
+    }
+}
+
+.overlay {
+	background-image: linear-gradient(
+			115deg,
+			rgba(58, 58, 158, 0.8),
+			rgba(136, 136, 206, 0.7)
+		),
+		url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -100;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	opacity: 0.9;
+	margin-bottom: 26px;
+}
+
+#title {
+	font-size: 38px;
+}
+
+#description {
+	margin-top: 8px;
+	opacity: 0.9;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.form-section {
+	background-color: rgba(40, 40, 71, 0.8);
+	padding: 40px;
+	border-radius: 5px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.form-group + .form-group {
+	margin-top: 26px;
+}
+
+.form-group p,
+.form-group label {
+	font-size: 22px;
+}
+
+#dropdown,
+.form-group input {
+	font-size: 17px;
+	padding: 8px;
+	border-radius: 6px;
+	margin: 10px 0;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+	display: inline-block;
+}
+
+#comment {
+	height: 120px;
+	border-radius: 3px;
+	margin-top: 6px;
+	margin-bottom: 54px;
+	padding: 8px;
+	font-size: 17px;
+}
+
+#submit {
+	display: inline-block;
+	width: 100%;
+	padding: 12px;
+	font-size: 18px;
+	border: none;
+	border-radius: 3px;
+	background-color: #37af65;
+	color: white;
+    margin-bottom: 20px;
+}

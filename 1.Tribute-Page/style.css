@@ -1,0 +1,68 @@
+#main {
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 30px;
+}
+
+#header__title {
+    font-size: 40px;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    opacity: .7;
+}
+
+#img-div {
+    background-color: white;
+}
+
+#img-div > figure{
+    margin: 0;
+    padding: 10px;
+}
+
+#image {
+    width: 100%;
+}
+
+#img-caption {
+    margin-top: 12px;
+    font-size: 18px;
+    opacity: .7;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 36px;
+    padding-bottom: 18px;
+    opacity: .9;
+}
+
+#tribute-info {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#tribute-info li {
+    padding: 10px 0;
+}
+
+.cite {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 18px;
+}
+
+h3 {
+    font-size: 21px;
+    padding-top: 34px;
+}
+
+a {
+    color: #477CA7;
+}
+
